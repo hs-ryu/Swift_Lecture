@@ -15,6 +15,11 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func clickbutton(_ sender: Any) {
+        print("111")
+    }
+    
+    
     @IBAction func buttonClick() {
         print("button click")
     }
