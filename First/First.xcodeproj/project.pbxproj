@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E11EDB42AAF36B600FC7E32 /* myxib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E11EDB32AAF36B600FC7E32 /* myxib.xib */; };
+		0EA609EF2AB1D4F900979BD5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA609EE2AB1D4F900979BD5 /* FirstViewController.xib */; };
+		0EA609F12AB1E02600979BD5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA609F02AB1E02600979BD5 /* Car.swift */; };
+		0EA609F32AB1E0BC00979BD5 /* myxib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA609F22AB1E0BC00979BD5 /* myxib.xib */; };
 		0EAE78E42AA5FB4200DF5B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE78E32AA5FB4200DF5B42 /* Assets.xcassets */; };
 		0EAE78F12AA5FFF600DF5B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE78F02AA5FFF600DF5B42 /* AppDelegate.swift */; };
 		0EF6F6822AA8A99F006D7131 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6F6812AA8A99F006D7131 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E11EDB32AAF36B600FC7E32 /* myxib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myxib.xib; sourceTree = "<group>"; };
+		0EA609EE2AB1D4F900979BD5 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		0EA609F02AB1E02600979BD5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0EA609F22AB1E0BC00979BD5 /* myxib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myxib.xib; sourceTree = "<group>"; };
 		0EAE78D72AA5FB4100DF5B42 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAE78E32AA5FB4200DF5B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAE78E82AA5FB4200DF5B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +59,10 @@
 				0EAE78E32AA5FB4200DF5B42 /* Assets.xcassets */,
 				0EAE78E82AA5FB4200DF5B42 /* Info.plist */,
 				0EAE78F02AA5FFF600DF5B42 /* AppDelegate.swift */,
-				0E11EDB32AAF36B600FC7E32 /* myxib.xib */,
 				0EF6F6812AA8A99F006D7131 /* FirstViewController.swift */,
+				0EA609EE2AB1D4F900979BD5 /* FirstViewController.xib */,
+				0EA609F02AB1E02600979BD5 /* Car.swift */,
+				0EA609F22AB1E0BC00979BD5 /* myxib.xib */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -121,7 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAE78E42AA5FB4200DF5B42 /* Assets.xcassets in Resources */,
-				0E11EDB42AAF36B600FC7E32 /* myxib.xib in Resources */,
+				0EA609EF2AB1D4F900979BD5 /* FirstViewController.xib in Resources */,
+				0EA609F32AB1E0BC00979BD5 /* myxib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +141,7 @@
 			files = (
 				0EAE78F12AA5FFF600DF5B42 /* AppDelegate.swift in Sources */,
 				0EF6F6822AA8A99F006D7131 /* FirstViewController.swift in Sources */,
+				0EA609F12AB1E02600979BD5 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = FirstViewController()
         vc.view = view
         
-        btn.addTarget(vc, action: #selector(FirstViewController.buttonClick), for: .touchUpInside)
+        // btn.addTarget(vc, action: #selector(FirstViewController.buttonClick), for: .touchUpInside)
         
         window?.rootViewController = vc // vc.view를 윈도우에 자동으로 붙여줌.
         // 윈도우를 보이게 해라!
@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // let vc = FirstViewController()
         // vc.view = view
         
-        let vc = FirstViewController(nibName: "myxib", bundle: nil)
+        let vc = FirstViewController(nibName: "FirstViewController", bundle: nil)
         
         window?.rootViewController = vc // vc.view를 윈도우에 자동으로 붙여줌.
         // 윈도우를 보이게 해라!

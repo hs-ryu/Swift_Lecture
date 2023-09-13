@@ -14,13 +14,10 @@ class FirstViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var msgLabel: UILabel!
     
-    @IBAction func clickbutton(_ sender: Any) {
-        print("111")
+    @IBAction func click() {
+        msgLabel.text = "hello"
     }
     
-    
-    @IBAction func buttonClick() {
-        print("button click")
-    }
 }
