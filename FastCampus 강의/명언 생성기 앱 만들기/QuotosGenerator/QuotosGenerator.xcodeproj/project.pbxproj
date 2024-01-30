@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EACD45A2830F7B0003CCFE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD4592830F7B0003CCFE5 /* AppDelegate.swift */; };
+		0EACD45C2830F7B0003CCFE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD45B2830F7B0003CCFE5 /* SceneDelegate.swift */; };
+		0EACD45E2830F7B0003CCFE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD45D2830F7B0003CCFE5 /* ViewController.swift */; };
+		0EACD4612830F7B0003CCFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EACD45F2830F7B0003CCFE5 /* Main.storyboard */; };
+		0EACD4632830F7B1003CCFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EACD4622830F7B1003CCFE5 /* Assets.xcassets */; };
+		0EACD4662830F7B1003CCFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EACD4642830F7B1003CCFE5 /* LaunchScreen.storyboard */; };
+		0EACD4712830F7B1003CCFE5 /* QuotosGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD4702830F7B1003CCFE5 /* QuotosGeneratorTests.swift */; };
+		0EACD47B2830F7B1003CCFE5 /* QuotosGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD47A2830F7B1003CCFE5 /* QuotosGeneratorUITests.swift */; };
+		0EACD47D2830F7B1003CCFE5 /* QuotosGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD47C2830F7B1003CCFE5 /* QuotosGeneratorUITestsLaunchTests.swift */; };
+		0EACD48A2830FBAE003CCFE5 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD4892830FBAE003CCFE5 /* Quote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EACD46D2830F7B1003CCFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EACD44E2830F7B0003CCFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EACD4552830F7B0003CCFE5;
+			remoteInfo = QuotosGenerator;
+		};
+		0EACD4772830F7B1003CCFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EACD44E2830F7B0003CCFE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EACD4552830F7B0003CCFE5;
+			remoteInfo = QuotosGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EACD4562830F7B0003CCFE5 /* QuotosGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotosGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EACD4592830F7B0003CCFE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EACD45B2830F7B0003CCFE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EACD45D2830F7B0003CCFE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EACD4602830F7B0003CCFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EACD4622830F7B1003CCFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EACD4652830F7B1003CCFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EACD4672830F7B1003CCFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EACD46C2830F7B1003CCFE5 /* QuotosGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotosGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EACD4702830F7B1003CCFE5 /* QuotosGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotosGeneratorTests.swift; sourceTree = "<group>"; };
+		0EACD4762830F7B1003CCFE5 /* QuotosGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotosGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EACD47A2830F7B1003CCFE5 /* QuotosGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotosGeneratorUITests.swift; sourceTree = "<group>"; };
+		0EACD47C2830F7B1003CCFE5 /* QuotosGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotosGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EACD4892830FBAE003CCFE5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EACD4532830F7B0003CCFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD4692830F7B1003CCFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD4732830F7B1003CCFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EACD44D2830F7B0003CCFE5 = {
+			isa = PBXGroup;
+			children = (
+				0EACD4582830F7B0003CCFE5 /* QuotosGenerator */,
+				0EACD46F2830F7B1003CCFE5 /* QuotosGeneratorTests */,
+				0EACD4792830F7B1003CCFE5 /* QuotosGeneratorUITests */,
+				0EACD4572830F7B0003CCFE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EACD4572830F7B0003CCFE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EACD4562830F7B0003CCFE5 /* QuotosGenerator.app */,
+				0EACD46C2830F7B1003CCFE5 /* QuotosGeneratorTests.xctest */,
+				0EACD4762830F7B1003CCFE5 /* QuotosGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EACD4582830F7B0003CCFE5 /* QuotosGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				0EACD4592830F7B0003CCFE5 /* AppDelegate.swift */,
+				0EACD45B2830F7B0003CCFE5 /* SceneDelegate.swift */,
+				0EACD45D2830F7B0003CCFE5 /* ViewController.swift */,
+				0EACD45F2830F7B0003CCFE5 /* Main.storyboard */,
+				0EACD4622830F7B1003CCFE5 /* Assets.xcassets */,
+				0EACD4642830F7B1003CCFE5 /* LaunchScreen.storyboard */,
+				0EACD4672830F7B1003CCFE5 /* Info.plist */,
+				0EACD4892830FBAE003CCFE5 /* Quote.swift */,
+			);
+			path = QuotosGenerator;
+			sourceTree = "<group>";
+		};
+		0EACD46F2830F7B1003CCFE5 /* QuotosGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EACD4702830F7B1003CCFE5 /* QuotosGeneratorTests.swift */,
+			);
+			path = QuotosGeneratorTests;
+			sourceTree = "<group>";
+		};
+		0EACD4792830F7B1003CCFE5 /* QuotosGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EACD47A2830F7B1003CCFE5 /* QuotosGeneratorUITests.swift */,
+				0EACD47C2830F7B1003CCFE5 /* QuotosGeneratorUITestsLaunchTests.swift */,
+			);
+			path = QuotosGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EACD4552830F7B0003CCFE5 /* QuotosGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EACD4802830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGenerator" */;
+			buildPhases = (
+				0EACD4522830F7B0003CCFE5 /* Sources */,
+				0EACD4532830F7B0003CCFE5 /* Frameworks */,
+				0EACD4542830F7B0003CCFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotosGenerator;
+			productName = QuotosGenerator;
+			productReference = 0EACD4562830F7B0003CCFE5 /* QuotosGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EACD46B2830F7B1003CCFE5 /* QuotosGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EACD4832830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGeneratorTests" */;
+			buildPhases = (
+				0EACD4682830F7B1003CCFE5 /* Sources */,
+				0EACD4692830F7B1003CCFE5 /* Frameworks */,
+				0EACD46A2830F7B1003CCFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EACD46E2830F7B1003CCFE5 /* PBXTargetDependency */,
+			);
+			name = QuotosGeneratorTests;
+			productName = QuotosGeneratorTests;
+			productReference = 0EACD46C2830F7B1003CCFE5 /* QuotosGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EACD4752830F7B1003CCFE5 /* QuotosGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EACD4862830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGeneratorUITests" */;
+			buildPhases = (
+				0EACD4722830F7B1003CCFE5 /* Sources */,
+				0EACD4732830F7B1003CCFE5 /* Frameworks */,
+				0EACD4742830F7B1003CCFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EACD4782830F7B1003CCFE5 /* PBXTargetDependency */,
+			);
+			name = QuotosGeneratorUITests;
+			productName = QuotosGeneratorUITests;
+			productReference = 0EACD4762830F7B1003CCFE5 /* QuotosGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EACD44E2830F7B0003CCFE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0EACD4552830F7B0003CCFE5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0EACD46B2830F7B1003CCFE5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0EACD4552830F7B0003CCFE5;
+					};
+					0EACD4752830F7B1003CCFE5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0EACD4552830F7B0003CCFE5;
+					};
+				};
+			};
+			buildConfigurationList = 0EACD4512830F7B0003CCFE5 /* Build configuration list for PBXProject "QuotosGenerator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EACD44D2830F7B0003CCFE5;
+			productRefGroup = 0EACD4572830F7B0003CCFE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EACD4552830F7B0003CCFE5 /* QuotosGenerator */,
+				0EACD46B2830F7B1003CCFE5 /* QuotosGeneratorTests */,
+				0EACD4752830F7B1003CCFE5 /* QuotosGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EACD4542830F7B0003CCFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EACD4662830F7B1003CCFE5 /* LaunchScreen.storyboard in Resources */,
+				0EACD4632830F7B1003CCFE5 /* Assets.xcassets in Resources */,
+				0EACD4612830F7B0003CCFE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD46A2830F7B1003CCFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD4742830F7B1003CCFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EACD4522830F7B0003CCFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EACD48A2830FBAE003CCFE5 /* Quote.swift in Sources */,
+				0EACD45E2830F7B0003CCFE5 /* ViewController.swift in Sources */,
+				0EACD45A2830F7B0003CCFE5 /* AppDelegate.swift in Sources */,
+				0EACD45C2830F7B0003CCFE5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD4682830F7B1003CCFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EACD4712830F7B1003CCFE5 /* QuotosGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EACD4722830F7B1003CCFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EACD47B2830F7B1003CCFE5 /* QuotosGeneratorUITests.swift in Sources */,
+				0EACD47D2830F7B1003CCFE5 /* QuotosGeneratorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EACD46E2830F7B1003CCFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EACD4552830F7B0003CCFE5 /* QuotosGenerator */;
+			targetProxy = 0EACD46D2830F7B1003CCFE5 /* PBXContainerItemProxy */;
+		};
+		0EACD4782830F7B1003CCFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EACD4552830F7B0003CCFE5 /* QuotosGenerator */;
+			targetProxy = 0EACD4772830F7B1003CCFE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EACD45F2830F7B0003CCFE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EACD4602830F7B0003CCFE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EACD4642830F7B1003CCFE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EACD4652830F7B1003CCFE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EACD47E2830F7B1003CCFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EACD47F2830F7B1003CCFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EACD4812830F7B1003CCFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotosGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EACD4822830F7B1003CCFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotosGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EACD4842830F7B1003CCFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotosGenerator.app/QuotosGenerator";
+			};
+			name = Debug;
+		};
+		0EACD4852830F7B1003CCFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotosGenerator.app/QuotosGenerator";
+			};
+			name = Release;
+		};
+		0EACD4872830F7B1003CCFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuotosGenerator;
+			};
+			name = Debug;
+		};
+		0EACD4882830F7B1003CCFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXU6534P3P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuotosGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuotosGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EACD4512830F7B0003CCFE5 /* Build configuration list for PBXProject "QuotosGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EACD47E2830F7B1003CCFE5 /* Debug */,
+				0EACD47F2830F7B1003CCFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EACD4802830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EACD4812830F7B1003CCFE5 /* Debug */,
+				0EACD4822830F7B1003CCFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EACD4832830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EACD4842830F7B1003CCFE5 /* Debug */,
+				0EACD4852830F7B1003CCFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EACD4862830F7B1003CCFE5 /* Build configuration list for PBXNativeTarget "QuotosGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EACD4872830F7B1003CCFE5 /* Debug */,
+				0EACD4882830F7B1003CCFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EACD44E2830F7B0003CCFE5 /* Project object */;
+}
